@@ -265,3 +265,19 @@ body {
   background-color: #d9534f;
   color: #fff;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .envlope-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .reset {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
